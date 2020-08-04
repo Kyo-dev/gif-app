@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test in <GifLoadGrid /> Show component OK 1`] = `
+<div
+  className="card animate__animated animate__backInUp"
+>
+  <img
+    alt="I'm a title"
+    src="http://localhost.testing.jpg"
+  />
+  <p>
+    I'm a title
+  </p>
+</div>
+`;
