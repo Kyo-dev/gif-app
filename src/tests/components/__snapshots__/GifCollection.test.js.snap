@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test in <GrifCollection /> Show component OK 1`] = `
+<Fragment>
+  <h3
+    className="card animate__animated animate__backInDown"
+  >
+    samurai X
+  </h3>
+  <p
+    className="card animate__animated animate__flash"
+  >
+    Loading...
+  </p>
+  <div
+    className="card-container"
+  />
+</Fragment>
+`;
+
+exports[`test in <GrifCollection /> load images 1`] = `
+<Fragment>
+  <h3
+    className="card animate__animated animate__backInDown"
+  >
+    samurai X
+  </h3>
+  <div
+    className="card-container"
+  >
+    <GifLoadGrid
+      gif="https://localhost/testing.jpg"
+      id="ABC"
+      key="ABC"
+      title="This is a test"
+    />
+    <GifLoadGrid
+      gif="https://localhost/testing.jpg"
+      id="123"
+      key="123"
+      title="This is a test"
+    />
+  </div>
+</Fragment>
+`;

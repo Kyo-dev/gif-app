@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 export const GifLoadGrid = ({ title, gif }) => {
   return (
     <div className="card animate__animated animate__backInUp">
+      console.log(gif)
       <img src={gif} alt={title} />
       <p>{title}</p>
     </div>

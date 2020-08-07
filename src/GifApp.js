@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { AddCategory } from "./components/AddCategory";
 import { GifCollection } from "./components/GifCollection";
 
-const GifApp = () => {
-  const [categories, setCategories] = useState(["zelda"]);
+const GifApp = ({defaultCategories = []}) => {
+  const [categories, setCategories] = useState(defaultCategories);
   return (
     <>
       <h2>Gif App</h2>

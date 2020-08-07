@@ -29,5 +29,4 @@ describe("test in <GifLoadGrid />", () => {
       expect(className.includes('animate__backInUp')).toBe(true);
   });
   
-  
 });
